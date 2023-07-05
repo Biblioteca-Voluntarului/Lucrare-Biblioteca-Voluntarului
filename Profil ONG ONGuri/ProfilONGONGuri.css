@@ -1,0 +1,199 @@
+﻿*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'poppins', sans-serif;
+
+}
+.container{
+	width:100%;
+	height:100vh;
+	background-image:url(images/pg.%202%20-%20Creeaz%C4%83%20cont.Autentific%C4%83-te.png);
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-bottom:200px;
+	padding-top:300px;
+    display:table;
+    padding-left:200px;
+   
+}
+.profile-box{
+	background:#217393;
+	text-align:center;
+	padding:10px 60px;
+	color:#fff;
+	position:relative;
+	border-radius:20px;
+    display:table;
+    
+}
+.profile-pic{
+	width:150px;
+	border-radius:50%;
+	background:#fff;
+	padding:6px;
+
+}
+.profile-box h3{
+	font-size:22px;
+	margin-top:20px;
+	font-weight:500;
+	margin-bottom:10px;
+
+}
+.profile-box p{
+	font-size:18px;
+	margin-bottom:20px;
+	font-weight:500;
+}
+.fund{
+	background:#fff;
+	color:#999;
+	padding:40px 0;
+	border-radius:20px;
+    border-style: solid;
+    border-color: #7EAABf;
+    resize: none;
+}
+.fund h2
+{
+	font-size:22px;
+	font-weight:500;
+	margin-bottom:60px;
+	color:#217393;
+	word-wrap:break-word;
+	width:1000px;
+}
+#subsol{
+    background-image: url(Images/Fundal%20Subsol.png);
+    background-size:contain;
+    width:auto;
+    height: 400px;
+    position: relative;
+    height: 70px;
+    margin-top:-50px;
+    clear: both;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.socialmenu{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3 rem 0;
+    padding-top: 10px;
+}
+.socialmenu li{
+    margin:0 10px;
+}
+.socialmenu a{
+    text-decoration: none;
+    color: darkblue;
+}
+.socialmenu a i{
+    font-size:1.1rem;
+    transition: color .4s ease;
+}
+.socialmenu a:hover i{
+    color:lightblue;
+}
+.barademeniu{
+    text-align: center;
+}
+.barademeniu ul{
+    display: inline-flex;
+    list-style: none;
+    color: floralwhite;
+}
+.barademeniu ul li{ 
+    width: 100px;
+    margin: 15px;
+    padding: 15px;  
+}
+.barademeniu ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+.barademeniu ul li:hover{
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale (1.1);
+    transform: scale(1.1);
+}
+.submenu1{
+    display:none;
+}
+.barademeniu ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.barademeniu ul li:hover .submenu1 ul{
+    display: block;
+    margin: 5px;
+}
+.barademeniu ul li:hover .submenu1 ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+.barademeniu ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.barademeniu ul li:hover .submenu1 ul li a:hover{
+    color: #217393;
+}
+.about{
+    display:flex;
+    height:88%;
+    align-items:center;
+    width:1200px;
+    padding-left:270px;
+    padding-bottom:100px;
+}
+h1{
+    color:#217393;
+}
+p1{
+    color:#7EAABF;
+    font-size:20px;
+}
+p1 a{
+    color: #217393;
+}
+#about1{
+    padding-bottom: 40px;
+   
+}
+.row1 button{
+	background:#fff;
+	color:#7EAABF;
+	border:none;
+	outline:none;
+	box-shadow:0 5px 10px rgba(173, 216, 230,0.5 );
+	padding:15px 60px;
+	cursor:pointer;
+	border-radius:30px;
+	margin-bottom:-50px;
+	font-weight:600;
+	font-size:16px;
+}
+.row1 button:hover{
+    background-color:#bbd2dd;
+    color: white;
+}
+.image{
+    float:left;
+    width:30%;
+    height:30%;
+    padding-right:20px;
+}

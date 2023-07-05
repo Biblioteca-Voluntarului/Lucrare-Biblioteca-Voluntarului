@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+html, body{
+    height: 100%;
+}
+#container{
+    min-height: 100%; 
+}
+#main{
+    overflow:inherit;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+body
+{
+   background-image: url(Images/pg.%201%20-%20Biblioteca%20voluntarului.gif);
+   background-size:cover;
+   background-position:top;
+   box-sizing: border-box;
+   font-family: cursive;
+   background-repeat: no-repeat;
+}
+.barademeniu{
+    text-align: center;
+}
+.barademeniu ul{
+    display: inline-flex;
+    list-style: none;
+    color: floralwhite;
+}
+.barademeniu ul li{ 
+    width: 150px;
+    margin: 20px;
+    padding: 8px;  
+}
+.barademeniu ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+.barademeniu ul li:hover{
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale (1.1);
+    transform: scale(1.1);
+}
+.submenu1{
+    display:none;
+}
+.barademeniu ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.barademeniu ul li:hover .submenu1 ul{
+    display: block;
+    margin: 5px;
+}
+.barademeniu ul li:hover .submenu1 ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+.barademeniu ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.barademeniu ul li:hover .submenu1 ul li a:hover{
+    color: #217393;
+}
+
+#subsol{
+    background-image: url(Images/Fundal%20Subsol.png);
+    background-size:contain;
+    width:auto;
+    height: 300px;
+    position: relative;
+    height: 50px;
+    margin-top:-50px;
+    clear: both;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.socialmenu{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3 rem 0;
+    padding-top: 10px;
+}
+.socialmenu li{
+    margin:0 10px;
+}
+.socialmenu a{
+    text-decoration: none;
+    color: darkblue;
+}
+.socialmenu a i{
+    font-size:1.1rem;
+    transition: color .4s ease;
+}
+.socialmenu a:hover i{
+    color:lightblue;
+}
+.about{
+ display:flex;
+ height:88%;
+ width:1000px;
+ text-align:center;
+ padding-left:450px;
+  
+}
+h1{
+    color:#217393;
+}
+p1{
+    color:#7EAABF;
+}
+p1 a{
+    color: #217393;
+}
+#about1{
+    padding-bottom: 140px;
+    padding-top: 30px;
+
+}
+.about li{
+      text-align:center;
+     align-items:center;
+}
+ol.lista{
+     color:#217393;
+     font-weight: bold;
+     margin:0;
+     padding:0;
+       }
+.about li a{
+    text-decoration: none;
+    color:#217393;
+}
+.about li a:hover{
+    color:#7EAABF;
+}
+
+.lista button{
+	background:#217393;
+	color:#fff;
+	border:none;
+	outline:none;
+	box-shadow:0 5px 10px rgba(173, 216, 230,0.5 );
+	padding:15px 60px;
+	cursor:pointer;
+	border-radius:30px;
+	margin-bottom:-50px;
+	font-weight:600;
+	font-size:16px;
+}
+.lista button:hover{
+    background-color:#fff;
+    color: #217393;
+}

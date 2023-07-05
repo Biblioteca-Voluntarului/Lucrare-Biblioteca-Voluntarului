@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>CREARE CONT ONG</title>
+        <link rel="stylesheet" href="SignUpONG.css">
+        <script src="https://kit.fontawesome.com/a1aab4a83a.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    
+    <body>
+        <section id class="formular">
+            <div class="container">
+                <div class="title"><b>Creează-ți contul de asociație!</b></div>
+                <div class="content">
+                    <form action="SignUpONG.php" method="post">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Denumire asociație</span>
+                                <input type="text" name="denumire_asociatie" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">CIF/CUI</span>
+                                <input type="text" name="CIF_CUI" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">E-mail</span>
+                                <input type="text" name="adresa_email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Număr de telefon</span>
+                                <input type="text" name="numar_telefon" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Parolă *</span>
+                                <input type="password" name="password" id="myInput1" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Confirmare parolă</span>
+                                <input type="password" name="cpassword" id="myInput2" required>
+                            </div>
+                            <div>
+                                <input type="checkbox" onclick="myFunction()"> <b>Arată-mi parola</b>
+                            </div>
+                            <script>
+                                function myFunction(){
+                                    var x = document.getElementById("myInput1");
+                                    var y = document.getElementById("myInput2");
+                                if (x.type === "password" && y.type === "password"){
+                                    x.type = "text";
+                                    y.type = "text";
+                                } 
+                                else{
+                                    x.type = "password";
+                                    y.type = "password";
+                                }
+                                }
+                            </script>
+                        </div>
+                        <div class="button">
+                            <input type="submit" name="submit" value="Înregistrează-te!">
+                        </div>
+                    </form>
+                    <p><b>* </b><i>parola trebuie să conțină minimum 10 caractere, dintre care minimum o majusculă, o cifră și un caracter special!</i></p>
+                </div>
+            </div>
+        </section>
+    
+        <footer id="subsol">
+            <div class="sub">
+                <hr>
+                <h3 style="color: darkblue"><center>Contact</center></h3>
+                <ul class="socialmenu">
+                    <li><a href="mailto:biblioteca.voluntarului@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+                    <li><a href="tel:0771262411"><i class="fa-solid fa-phone"></i></a></li>
+                    <li><a href="https://www.instagram.com/biblioteca.voluntarului/?igshid=YmMyMTA2M2Y%3D"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
